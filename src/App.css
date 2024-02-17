@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #2e3336;
+}
+
+#root {
+  margin: 0 auto;
+}
+
+.container {
+  background-color: #1c1d1d;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 25px;
+  margin-bottom: 60px;
+}
+
+.container,
+.photo {
+  max-width: 250px;
+}
+
+.text,
+.about {
+  margin: 15px 25px;
+}
+
+.text {
+  text-align: center;
+}
+
+.info h1 {
+  font-size: 1.3rem;
+  margin: 10px 0px;
+}
+
+.info h3 {
+  color: #858ca9;
+  margin-bottom: 15px;
+  font-size: 0.8rem;
+}
+
+.info button {
+  width: 94px;
+  padding: 8px;
+  font-size: 0.7rem;
+}
+
+.email {
+  background-color: #ffffff;
+  color: black;
+}
+
+.linkedin {
+  background-color: #536bd6;
+  color: rgb(255, 255, 255);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.info i {
+  padding-right: 5px;
+}
+
+.about h2 {
+  font-size: 0.9rem;
+}
+
+.about p {
+  font-size: 0.8rem;
+  color: #888888;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #131313;
+  height: 50px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 100px;
+  height: 100%;
+}
+
+.footer i {
+  font-size: 1.1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .container,
+  .photo {
+    max-width: 400px;
+  }
+
+  .text {
+    margin: 15px 35px;
+  }
+
+  .info h1 {
+    font-size: 2.3rem;
+    margin: 10px 0px;
+  }
+
+  .info h3 {
+    color: #84858a;
+    margin-bottom: 25px;
+    font-size: 1.4rem;
+  }
+
+  .info button {
+    width: 155px;
+    padding: 12px;
+    font-size: 1rem;
+  }
+
+  h2:first-of-type {
+    padding-top: 10px;
+  }
+  .about h2 {
+    font-size: 1.2rem;
+  }
+
+  .about p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+
+  .footer {
+    height: 80px;
+  }
+
+  .icons {
+    width: 180px;
+  }
+
+  .footer i {
+    font-size: 1.8rem;
+  }
+}
+/*
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+*/
