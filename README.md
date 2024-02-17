@@ -1,8 +1,5 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was build using React and Vite. It is a personal digital business card built with responsive mobile-first design in mind.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is the first project I solo built and am publishing that uses React! I learned a lot but still have a ways to go as far as deploying and understanding more of the minutiea.
