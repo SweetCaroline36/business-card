@@ -8,12 +8,15 @@ export default function Info() {
         <h1>Caroline Conner</h1>
         <h3>Fullstack Developer</h3>
         <div className="buttons">
-          <a href="#" target="_blank">
+          <a href="mailto:6caroline6@gmail.com" target="_blank">
             <button className="email">
               <i className="fa-solid fa-envelope"></i>Email
             </button>
           </a>
-          <a href="#" target="_blank">
+          <a
+            href="#https://www.linkedin.com/in/caroline-conner-a277a4144/"
+            target="_blank"
+          >
             <button className="linkedin">
               <i className="fa-brands fa-linkedin"></i>LinkedIn
             </button>
